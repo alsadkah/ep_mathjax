@@ -1,9 +1,9 @@
-.buttonicon-embed-mathjax{
+.buttonicon-emb-mathjax {
   text-transform: none;
-  font-weight:800;
-  font-size:22px !important;
-  font-family:monospace;
-  margin-top:-3px;
+  font-weight: 800;
+  font-size: 17px !important;
+  font-family: monospace;
+  margin-top: -3px;
 }
 
 #mathjaxSrc {
@@ -11,5 +11,8 @@
   margin: 10px 0;
 }
 .ep_mathjax-popup {
-  left: 30px;
+  left: 60%;
+  position: absolute;
+  z-index: 99;
+  display: none;
 }
